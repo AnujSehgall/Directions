@@ -67,7 +67,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String origin = etOrigin.getText().toString();
         String destination = etDestination.getText().toString();
         if (origin.isEmpty()) {
-            Toast.makeText(this, "Please enter origin address!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter origin address! ", Toast.LENGTH_SHORT).show();
             return;
         }
         if (destination.isEmpty()) {
